@@ -6,7 +6,7 @@ if (typeof jQuery !== 'undefined') {
 	
 }
 function fbshareCurrentPage()
-    {window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t=?wt_zmc=sm.ext.zonaudev.facebook.ref.zeitde.dskshare.link.x&utm_medium=sm&utm_source=facebook_zonaudev_ext&utm_campaign=ref&utm_content=zeitde_dskshare_link_x"+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); }
+    {window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"wt_zmc=sm.ext.zonaudev.facebook.ref.zeitde.dskshare.link.x&utm_medium=sm&utm_source=facebook_zonaudev_ext&utm_campaign=ref&utm_content=zeitde_dskshare_link_x&t=?"+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); }
 
 
 function disableDefaultShareBar() {
