@@ -12,11 +12,11 @@ function fbshareCurrentPage()
 
 
 function disableDefaultShareBar() {
-	console.log('disableDefaultShareBar');
+	console.log("call disableDefaultShareBar")
 
 	$jqry( document ).ready( function() {
 	
-	console.log('func call 2');
+
 		
 
 			$jqry ( ".show_smk" ).css( "display" , "none");
