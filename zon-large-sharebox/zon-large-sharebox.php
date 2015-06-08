@@ -18,7 +18,7 @@ function addScript() {
 	
 	echo '<script type="text/javascript" src="https://cdn.rawgit.com/lem45/wordpress/master/zon-large-sharebox/includes/js/scripts.js" ></script>';
 
-	echo '<link href="https://cdn.rawgit.com/lem45/wordpress/master/zon-large-sharebox/includes/styles/zon-share-box-styles.css" rel="stylesheet" type="text/css" />';
+	echo '<link href="https://cdn.rawgit.com/lem45/wordpress/c1b8e690fd818334b8c21961347d74e96fc0fb68/zon-large-sharebox/includes/styles/zon-share-box-styles.css" rel="stylesheet" type="text/css" />';
 
 	echo "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>";
 }
