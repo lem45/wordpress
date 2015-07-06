@@ -6,7 +6,7 @@ if (typeof jQuery !== 'undefined') {
 	
 }
 function fbshareCurrentPage()
-    {window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"wt_zmc=sm.ext.zonaudev.facebook.ref.zeitde.dskshare.link.x&utm_medium=sm&utm_source=facebook_zonaudev_ext&utm_campaign=ref&utm_content=zeitde_dskshare_link_x&t=?"+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); }
+    {window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"?wt_zmc=sm.ext.zonaudev.facebook.ref.zeitde.dskshare.link.x%26utm_medium=sm%26utm_source=facebook_zonaudev_ext%26utm_campaign=ref%26utm_content=zeitde_dskshare_link_x%26t="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); }
 
 
 function disableDefaultShareBar() {
@@ -21,7 +21,7 @@ function disableDefaultShareBar() {
 			$newShareBox = '<div class="tb-newShareBox">';
 			
 			$newShareBox += '<a href="javascript:fbshareCurrentPage()" ><div class="tb-newShareButton tb-facebook">Auf Facebook teilen</div></a>';
-			$newShareBox += '<a href="https://twitter.com/share" data-url="'+escape(window.location.href)+'?wt_zmc=sm.ext.zonaudev.twitter.ref.zeitde.dskshare.link.x&utm_medium=sm&utm_source=twitter_zonaudev_ext&utm_campaign=ref&utm_content=zeitde_dskshare_link_x" target="_blank" class=""><div class="tb-newShareButton tb-twitter">Twittern</div></a>';
+			$newShareBox += '<a href="https://twitter.com/intent/tweet?url='+escape(window.location.href)+'?wt_zmc=sm.ext.zonaudev.twitter.ref.zeitde.dskshare.link.x%26utm_medium=sm%26utm_source=twitter_zonaudev_ext%26utm_campaign=ref%26utm_content=zeitde_dskshare_link_x" data-url="'+escape(window.location.href)+'?wt_zmc=sm.ext.zonaudev.twitter.ref.zeitde.dskshare.link.x&utm_medium=sm&utm_source=twitter_zonaudev_ext&utm_campaign=ref&utm_content=zeitde_dskshare_link_x" target="_blank" class=""><div class="tb-newShareButton tb-twitter">Twittern</div></a>';
 
 			
 			$newShareBox += '</div>'; // close tb-newShareBox
